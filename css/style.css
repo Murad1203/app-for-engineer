@@ -1,0 +1,36 @@
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid silver;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+  display: block;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: silver;
+  color: black;
+  border: 0;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
